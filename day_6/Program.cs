@@ -6,7 +6,21 @@ namespace day_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ievadiet skaitli:");
+            for (int i = 0; i < 4; i++)//i++ i=i+1
+            {
+                Console.WriteLine(i);
+
+            }
+            int skaititajs = 0;
+            while (skaititjs !=5)
+            {
+                Console.WriteLine(skaititajs);
+                skaititajs++;
+            }
+
+
+            //1 uzdevums
+          /*  Console.WriteLine("ievadiet skaitli:");
 
             string ievads = Console.ReadLine();
 
@@ -16,13 +30,18 @@ namespace day_6
 
             Console.WriteLine(izvade);
 
-            Console.ReadLine();
-        }
+            int skaits = izvade.Length;
 
-        static string Pievienoskaitli(string skaitlis)
-        {
-            string rezultats = "mans skaitlis ir" + skaitlis;
-            return rezultats;
+            Console.WriteLine(skaits);
+            */
+        
+
+     
+
+            }
+
+
         }
     }
 }
+
